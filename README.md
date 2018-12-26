@@ -5,7 +5,7 @@
 
 This is the firmware I created for my Anycubic 4Max after upgrading to TMC2208 stepper drivers. The directions of all axis and extruders are inverted already, so you don't need further modification of your Hardware.
 
-I adjusted the PID for the hotend. The PID for the heatbed is fine with default values. 
+I adjusted the PID for the hotend. The heatbed uses band-bang which is totally sufficient. 
 
 I also adjusted the acceleration values which suit the printer setup better.
 
